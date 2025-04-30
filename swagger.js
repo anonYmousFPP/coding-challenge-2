@@ -338,7 +338,7 @@ const swaggerDefinition = {
               schema: {
                 type: 'object',
                 properties: {
-                  leaveType: { type: 'string', example: 'Vacation' },
+                  leaveType: { type: 'string', example: 'planned' },
                   startDate: { type: 'string', format: 'date', example: '2025-05-01' },
                   endDate: { type: 'string', format: 'date', example: '2025-05-05' },
                   reason: { type: 'string', example: 'Family vacation' },

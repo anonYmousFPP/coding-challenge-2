@@ -5,7 +5,7 @@ import morgan from "morgan";
 import logger from "./utils/logger.js";
 import swaggerUi from "swagger-ui-express";
 import swaggerJsdoc from "swagger-jsdoc";
-import swaggerConfig from "./swagger.js"; 
+import swaggerConfig from "./swagger.js";
 import dotenv from "dotenv"
 dotenv.config();
 const MONGO = process.env.MONGO_URL;
